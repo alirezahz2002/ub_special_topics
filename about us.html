@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .main-container {
+            @apply border-r-[rgba(255,255,255,0.288)] border-r border-solid;
+        }
+        .header-col-1 ul {
+            @apply list-none mr-[60px];
+        }
+        .header-col-1 li {
+            @apply border-b-[color:var(--BACKGROUND)] transition-all duration-[0.2s] border-b border-solid hover:border-b-[color:var(--GREEN)] hover:border-b hover:border-solid;
+        }
+        .header-col-1 li a {
+            @apply text-[color:var(--FOREGROUND)];
+            font-family: kalameh-medium;
+        }
+        .header-col-2 button {
+            @apply bg-[color:var(--GREEN)] shadow-[1px_1px_14px_1px_var(--GREEN)] rounded-[7px_20px_7px_20px];
+            font-family: kalameh-medium;
+        }
+        .fa {
+            @apply inline-block text-[inherit];
+            font: normal normal normal 14px/1 FontAwesome;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+    <title>صفحه اصلی</title>
+</head>
+
+<body>
+    <!-- هدر موبایل -->
+<div class="mh flex items-center justify-between p-4 w-full md:hidden">
+    <i class="fa fa-bars text-xl"></i>
+    <img src="assets/images/logo/mobilelogo.png" alt="Logo" class="h-8 w-auto" />
+    <button class="text-xs px-4 py-2 rounded bg-blue-600 text-white">بازگشت -></button>
+  </div>
+  
+  <!-- هدر دسکتاپ -->
+  <header class="p-10 flex items-center justify-center w-full h-fit hidden md:flex">
+    <div class="header-col-1 w-4/5 h-full">
+      <nav>
+        <ul class="p-0">
+          <li class="inline-block w-fit px-5 py-2.5"><a href="#" class="no-underline">خانه</a></li>
+          <li class="inline-block w-fit px-5 py-2.5"><a href="#" class="no-underline">درباره ما</a></li>
+          <li class="inline-block w-fit px-5 py-2.5">
+            <a href="#" class="no-underline">تماس باما
+              <i class="fa fa-angle-down"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-col-2 w-1/5 flex items-center justify-center">
+      <button class="cursor-pointer w-39 h-11 text-sm border-0">ثبت نام / ورود</button>
+    </div>
+  </header>
+  
+
+            <div class="text flex items-center justify-center relative flex-wrap px-12 pb-12">
+                <div class="w-full md:w-2/3">
+                    <img src="assets/images/more/1.png" alt="" class="w-full md:w-full h-[250px] md:h-auto object-cover rounded-xl">
+                </div>
+
+                <div class="about-us-text w-full p-0 md:w-2/3">
+                    <h1 class="text-[25px] md:text-[40px]">درباره ما</h1>
+
+                    <p class="text-[14px] md:text-[17px]">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                        ، و با استفاده از طراحان گرافیک است
+                        ، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        ، و برای شرایط فعلی تکنولوژی مورد نیاز
+                        ، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                        ، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                        ، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی
+                        ، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                        ، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها
+                        ، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی
+                        ، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                        ، و با استفاده از طراحان گرافیک است
+                        ، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        ، و برای شرایط فعلی تکنولوژی مورد نیاز
+                        ، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                        ، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                        ، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی
+                        ، و فرهنگ پیشرو در زبان فارسی ایجاد کرد
+                        ، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها
+                        ، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی
+                        ، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sponser-container flex items-center justify-center relative">
+                <img src="assets/images/banner/sponser.png"
+                     alt=""
+                     class="w-full md:w-2/3 h-[150px] md:h-auto object-cover rounded-xl mb-[-50px]">
+            </div>
+
+
+            <div class="contact-container mt-20 mb-12 flex items-center justify-center w-full">
+                <div class="contact-container-child w-full max-w-6xl">
+                    <div class="contact-box flex flex-col md:flex-row">
+                        <div class="contact-item mt-[20px] md:mt-0">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="key">
+                                <p>شماره کارشناس</p>
+                            </div>
+                            <div class="value">
+                                <p>09151234567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item mt-[20px] md:mt-0">
+                            <div class="icon">
+                                <i class="fa fa-inbox"></i>
+                            </div>
+                            <div class="key">
+                                <p>ایمیل</p>
+                            </div>
+                            <div class="value">
+                                abcdefhijkg@gmail.com
+                            </div>
+                        </div>
+                        <div class="contact-item mt-[20px] md:mt-0">
+                            <div class="icon">
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                            <div class="key">
+                                <p>اینستاگرام</p>
+                            </div>
+                            <div class="value">
+                                <p>@abcdefhijkg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            
+
+        </div>
+    </div>
+
+</body>
+
+</html>
